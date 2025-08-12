@@ -26,18 +26,18 @@ Generate Multiple Choice Questions and Short Answer Questions from GenAI-related
    git clone https://github.com/your-username/rag-mcq-generator.git
    cd rag-mcq-generator
 
-   
-Install dependencies:
+
+2. Install dependencies:
 
 pip install -r requirements.txt
 
 
-Add your Azure API keys in a .env file:
+3. Add your Azure API keys in a .env file:
 
 AZURE_OPENAI_API_KEY=your_key_here
 AZUREOPENAI_API_BASE=https://your-endpoint.openai.azure.com/
 AZURE_OPENAI_API_VERSION=2023-05-15
 
-Run the app:
+4. Run the app:
 
 streamlit run app.py
