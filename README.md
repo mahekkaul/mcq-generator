@@ -36,8 +36,24 @@ pip install -r requirements.txt
 
 AZURE_OPENAI_API_KEY=your_key_here
 AZUREOPENAI_API_BASE=https://your-endpoint.openai.azure.com/
-AZURE_OPENAI_API_VERSION=2023-05-15
+AZURE_OPENAI_API_VERSION=yourversion
 
 4. Run the app:
 
 streamlit run app.py
+
+
+
+📌 Example Output
+
+Q: What is the capital of France?
+A) Berlin
+B) Madrid
+C) Paris ✅
+D) Rome
+
+
+📜 License
+This project is licensed under the MIT License — feel free to use, modify, and share.
+
+👩‍💻 Made with ❤️ by Mahek Kaul
